@@ -1,5 +1,3 @@
-font-family: 'Arvo', serif;
-
 *,
 *::before,
 *::after {
@@ -9,16 +7,43 @@ font-family: 'Arvo', serif;
 }
 html {
     font-size: 62.5%;
+    height: 100%;
 }
 body {
-    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    background-image: linear-gradient(to right bottom, #892be2c7, #9470dbd3, #ba55d3d0), url(./img/img\ 3.jpeg);
+    background-image: linear-gradient(to right bottom, #641da7c7, #5a2fb1d3, #921eafd0), url(./img/img\ 3.jpeg);
     background-position: center;
     background-size: cover;
     height: 100vh;
+    font-size: 1.8rem;
+    background-attachment: fixed; 
+    position: relative;   
+}
+#title {
+    font-size: 4rem;
+    font-weight: 300;
+    font-family: 'Arvo', serif;
+    color: #fff;
+    text-align: center;
+    margin: 1rem;  
+    padding-top: 6rem;
     
 }
-#form-bkg {
-    
+#description {
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+#survey-form {
+    height: 900px;
+    width: 55vw;
+    background-color: rgba(42, 11, 65, 0.85);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: .5rem;
+    box-shadow: .2rem .3rem .4rem #000;
+    margin-top: 25rem;
 }
