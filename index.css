@@ -48,7 +48,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: .5rem;
-    box-shadow: .2rem .3rem .4rem #000;
+    box-shadow: 1rem 2rem 3rem #000;
     margin-top: 30rem;
     padding: 4rem;
     display: table;
@@ -62,13 +62,15 @@ body {
     width: 100%;
     padding: .8rem;
     border-radius: .5rem;
-    border-style: none;
+    outline: none;
     margin: 1rem 0;
     font-size: 1.7rem;
     margin-bottom: 2.5rem;
 } 
-.form-input:hover{
-    border-bottom: ;
+input:focus {
+    outline: none;
+    box-shadow: .5rem 1rem 2rem #000;
+    border-bottom: 3px solid #daa520;
 }
 .opt {
       font-size: 1.3rem;
