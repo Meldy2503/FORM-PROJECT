@@ -18,12 +18,12 @@
         <form id="survey-form" action="">
          <div>  
             <label id="name-label" class="form-label" for="name">Name</label> <br>
-            <input  class="form-input" type="text" placeholder="Enter your name" id="name">
+            <input  class="form-input" type="text" placeholder="Enter your name" id="name" required>
         </div>
 
         <div>
             <label id="email-label" class="form-label" for="email">Email</label> <br>
-            <input class="form-input" type="email" placeholder="Enter your email" id="email">
+            <input class="form-input" type="email" placeholder="Enter your email" id="email" required>
         </div>
 
         <div>
@@ -78,13 +78,13 @@
                 <input type="checkbox"  value="Additional Courses" name="sections" id="courses"><label for="courses" class="checkbox">Additional Courses</label> <br>       
             </div>
 
-            <div>
-                <label for="comments">Any comments or suggestions?</label> <br>
-                <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Enter your comments here..."></textarea>
+            <div class="form-textarea">
+                <label class="form-para" for="comments">Any comments or suggestions?</label><br>
+                <textarea name="comments" id="comments" cols="30" rows="8" placeholder="Enter your comments here..." class="form-input"></textarea>
             </div>  
 
             <div>
-                <button type="submit">Submit</button>
+                <button type="submit" id="submit">Submit</button>
             </div>    
         
         </form>
